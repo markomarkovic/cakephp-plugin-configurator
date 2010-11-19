@@ -27,9 +27,9 @@
 <div class="actions">
 	<h3><?php __d('configurator', 'Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__d('configurator', 'Edit', true), array('action' => 'edit', $configuration['Configuration']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__d('configurator', 'Delete', true), array('action' => 'delete', $configuration['Configuration']['id']), null, sprintf(__d('configurator', 'Are you sure you want to delete "%s"?', true), $configuration['Configuration']['key'])); ?> </li>
-		<li><?php echo $this->Html->link(__d('configurator', 'List Configurations', true), array('action' => 'index')); ?></li>
+		<li><?php echo $html->link(__d('configurator', 'Edit', true), array('action' => 'edit', $configuration['Configuration']['id'])); ?> </li>
+		<li><?php echo $html->link(__d('configurator', 'Delete', true), array('action' => 'delete', $configuration['Configuration']['id']), null, sprintf(__d('configurator', 'Are you sure you want to delete "%s"?', true), $configuration['Configuration']['key'])); ?> </li>
+		<li><?php echo $html->link(__d('configurator', 'List Configurations', true), array('action' => 'index')); ?></li>
 	</ul>
 </div>
 
