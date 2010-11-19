@@ -49,8 +49,7 @@ By default, the creation of the following keys and sub-keys is not possible beca
 
 
 ## CakePHP 1.2 users
-The plugins should work for you too, you'll just need to edit the _configurator/views/configurations/*.ctp_ files if you wish to use the front-end. Replace _$this->Html_ with _$html_, _$this->Paginator_ with _$paginator_ etc.
-Set the _Routing.admin_ to _admin_ in your _app/config/core.php_
+The plugins should work for you too but you'll have to use the views from the [cake-1.2 branch](https://github.com/markomarkovic/cakephp-plugin-configurator/tree/cake-1.2).
 
 ## Licence
 Released under The MIT License
