@@ -18,7 +18,7 @@ Create the database table either by running
     $ cake schema create -plugin configurator
 
 
-or importing the _configurator/config/sql/schema.sql_ file. That will create the _configurations_ database table.
+or importing the _configurator/config/schema.sql_ file. That will create the _configurations_ database table.
 
 Add the _Configurator.Configure_ to the _$components_ in the _AppController_:
 
