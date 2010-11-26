@@ -7,7 +7,7 @@
 		echo $this->Form->input('key', array(
 			'error' => array(
 				'isUnique' => __d('configurator', 'The key must be unique.', true),
-				'rightFormat' => __d('configurator', 'The key can contain only alphanumerical characters and a dot. It cannot start or end or have more than one subsequent dot.', true),
+				'rightFormat' => __d('configurator', 'The key can contain only alphanumerical characters, underscore and a dot. It cannot start or end or have more than one subsequent dot.', true),
 				'reservedKeys' => __d('configurator', 'That key is reserved and cannot be used.', true)
 			)
 		));
