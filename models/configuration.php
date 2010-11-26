@@ -9,7 +9,7 @@ class Configuration extends ConfiguratorAppModel {
 				'rule' => 'isUnique'
 			),
 			'rightFormat' => array(
-				'rule' => '/^[a-z0-9\\.]+$/i'
+				'rule' => '/^[a-z0-9_\\.]+$/i'
 			),
 			'correctDots' => array(
 				'rule' => 'correctDots',
